@@ -1,0 +1,20 @@
+{
+  "name": "202301-w3ch1-carles-galan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "parcel build app/index.html --no-source-maps",
+    "prebuild:dev": "rimraf dist",
+    "build:dev": "parcel app/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "rimraf": "^4.1.1"
+  }
+}
