@@ -9,5 +9,5 @@
     "noImplicitAny": true /* Enable error reporting for expressions and declarations with an implied `any` type.. */,
     "strictNullChecks": true /* When type checking, take into account 'null' and 'undefined'. */
   },
-  "include": ["app/**/*.ts"]
+  "include": ["src/**/*.ts"]
 }
